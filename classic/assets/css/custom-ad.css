@@ -1,0 +1,25 @@
+/*
+- HEADER
+ */
+
+/** HEADER */
+.header-nav .col-md-5 #_desktop_user_info,.header-nav .col-md-5 #_desktop_cart, .header-nav .col-md-7 #_desktop_language_selector, .header-nav .col-md-7 #_desktop_user_info {
+    display: none;
+}
+
+.header-nav .language-selector .expand-more img {
+    width: 25px;
+}
+
+.header-nav .col-md-7 #_desktop_cart {
+    text-transform: uppercase;
+    border: 2px #ded3aa solid;
+    padding: 10px 30px;
+}
+
+.header-nav .col-md-7 #_desktop_cart .cart-preview {
+    background-color: unset;
+    padding: unset;
+    margin: unset;
+    height: auto;
+}

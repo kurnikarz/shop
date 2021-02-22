@@ -31,3 +31,5 @@
     {$stylesheet.content}
   </style>
 {/foreach}
+
+<link rel="stylesheet" href="{$urls.theme_assets}css/custom-ad.css" >
