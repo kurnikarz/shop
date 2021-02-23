@@ -1,5 +1,6 @@
 /*
 - HEADER
+- HEADER TOP
  */
 
 /** HEADER */
@@ -22,4 +23,37 @@
     padding: unset;
     margin: unset;
     height: auto;
+}
+
+.header-nav .col-md-7 .logo {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 26px;
+    align-self: center;
+}
+
+#header .header-nav .right-nav {
+    justify-content: space-between;
+}
+
+#header .header-nav {
+    max-height: unset;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+/** HEADER TOP*/
+#header .header-top .position-static {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header .header-top #_desktop_top_menu {
+    height: 24px;
+    color: #000000;
+}
+
+#header #_desktop_top_menu .dropdown-item {
+    color: #000000;
 }
